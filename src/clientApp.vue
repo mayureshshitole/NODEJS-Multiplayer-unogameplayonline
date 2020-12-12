@@ -13,7 +13,7 @@
         name: "clientApp",
         data: function() {
             return {               
-                socket: socket("https://uno-game-mayu.herokuapp.com/:" + 3000),
+                socket: socket("https://uno-game-mayu.herokuapp.com"),
             }
         },
         components: {
