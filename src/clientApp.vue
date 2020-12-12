@@ -13,7 +13,7 @@
         name: "clientApp",
         data: function() {
             return {               
-                socket: socket("http://" + window.location.hostname + ":" + window.location.port),
+                socket: socket("https://uno-game-mayu.herokuapp.com/:" + 3000),
             }
         },
         components: {
