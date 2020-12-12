@@ -2,6 +2,7 @@
 let express = require('express');
 let application = express();
 let server = require('http').Server(application);
+const port = process.env.PORT || 3000;
 let GameServiceFactory = require('./node_src/GameServiceFactory.js');
 let GameServiceRepository = require('./node_src/GameServiceRepository.js');
 let UnitTest = require('./node_src/UnitTest.js');
@@ -14,7 +15,7 @@ application.get('/', function(request, response){
 });
 application.use('/client', express.static(__dirname + '/client'));
 
-server.listen(3000);
+server.listen(port);
 //server.listen(8080);
 
 console.log('============= Server started ===============');

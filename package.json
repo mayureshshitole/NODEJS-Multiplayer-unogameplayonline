@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "vue-cli-service build --mode=development",
-    "serve": "vue-cli-service serve"
+    "serve": "vue-cli-service serve",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
