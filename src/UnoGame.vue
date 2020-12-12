@@ -3,7 +3,6 @@
         <Authorize :client="state.client" :socket="socket"></Authorize>
 
         <Board v-if="state.client.code">            
-            <Scores :clients="state.clients" :position="config.scoresPos"></Scores>
             <Card v-for="card in state.game.cards" 
                     :ref="'card'+card.id"
                     :card="card"
@@ -35,7 +34,6 @@
     import PopupSpecial from "./components/PopupSpecial"    
     import PopupTake from "./components/PopupTake"   
     import NamePlate from "./components/NamePlate"    
-    import Scores from "./components/Scores"
     import Authorize from "./components/Authorize"   
 
     import testDataNew from "../public/testDataNew.json"
@@ -64,7 +62,7 @@
             PopupSpecial,
             PopupTake,
             NamePlate,
-            Scores
+            
         },            
         data: function() {
             return {

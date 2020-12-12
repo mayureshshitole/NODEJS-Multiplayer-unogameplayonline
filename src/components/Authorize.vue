@@ -1,13 +1,13 @@
 <template>
     <div class="login-box" v-if="!client.code">
         <div class="row">
-            <input type="text" placeholder="Channel" class="input" v-model="room"/>
+            <input type="text" placeholder="ROOM CODE" class="input" v-model="room"/>
         </div>
         <div class="row">
-            <input type="text" placeholder="Type your name" class="input" v-model="client.name"/>
+            <input type="text" placeholder="USERNAME" class="input" v-model="client.name"/>
         </div>        
         <div class="row">
-            <Button faIcon="sign-in-alt" :clickHandler="login">Join</Button>
+            <Button faIcon="sign-in-alt" :clickHandler="login">ENTER</Button>
         </div>
     </div>
 </template>
@@ -50,11 +50,11 @@
     .login-box{
         top:50px;
         position:relative;
-        width:340px;
+        width:440px;
         height:auto;
         margin:0 auto;
         border-bottom:solid 1px #000000;
-        border-top:solid 1px #000000;
+        border-top:solid 1px #00ffff;
         border-left:solid 1px #9a6515;
         border-right:solid 1px #9a6515;
         border-radius:12px;
@@ -79,9 +79,9 @@
     }
     input{
         padding:5px;
-        border:none;
-        border-bottom:solid 1px #d4cda4;
-        color:#ffffff;
+        border-radius:10;
+        border-bottom:solid 1px #363530;
+        color:#050000;
         font-weight:bold;
         width:90px;
         margin:5px;

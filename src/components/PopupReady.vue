@@ -1,11 +1,11 @@
 <template>
     <Popup>
         <template v-slot:topRow>
-            <div class="wait-message">Waiting for game to start</div>  
+            <div class="wait-message">WAITING FOR OTHER PLAYERS TO READY</div>  
         </template>
         <template v-slot:bottomRow v-if="showButton">
             <div class="spacer"></div>
-            <Button faIcon="paper-plane" :clickHandler="buttonHandler">Ready!</Button>
+            <Button faIcon="paper-plane" :clickHandler="buttonHandler">READY!</Button>
         </template>
     </Popup>
 </template>

@@ -28,7 +28,7 @@
 
 <style>
     body {
-        background: #1b1b21 url('../public/img/page_bg.png') repeat-x;
+        background: #90c060;
         margin:0 auto;
         width:100%;
         font: 12px normal Verdana, Arial, Helvetica, sans-serif;

@@ -21,15 +21,15 @@
 		box-sizing: border-box;
 		font-size: 35px;
 		text-decoration: none;
-		color: green;
+		color: rgb(0, 0, 0);
 		font-weight: bold;
 		font-family: arial;
-        filter: drop-shadow(0px 5px 3px black);
+        filter: drop-shadow(0px 5px 3px rgb(59, 57, 57));
 		box-shadow: 0 1px 0 rgba(255, 255, 255, 0.54) inset, 0 -2px 1px rgba(0, 0, 0, 0.31) inset;
 		background: #ffbf00;
 		background: linear-gradient(to bottom,  #ffbf00 0%,#ff9700 100%);
         box-shadow: 0px 10px 32px -6px rgba(0,0,0,0.75);
-        text-shadow: 0px 1px 1px white;
+        text-shadow: 0px 1px 1px rgb(0, 0, 0);
     }
     .button:after {
         content: '';
@@ -42,11 +42,11 @@
         border:solid 6px rgba(255, 255, 255, 0.4);
     }
     .button:hover {
-        background: #ffdc00;
+        background: #aa8408;
         background: linear-gradient(to bottom,  #ffdc00 0%,#ffa700 100%);
     }
     .button:active {
-        background: #ff9100;
+        background: #a05d04;
         background: linear-gradient(to bottom,  #ff9100 0%,#ffb300 100%);
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.32) inset, 0 -1px 0px white inset;
         text-shadow: none;   

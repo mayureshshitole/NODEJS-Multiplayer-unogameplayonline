@@ -42,27 +42,27 @@
         height:150px;
         right:20px;
         top:220px;
-        transform: rotateZ(3deg);
+        /*transform: rotateZ(3deg);*/
     }
     .column{
         position:relative;
         width:55px;
         height:100%;
         float:left;
-        border-left:solid 1px white;
+        border-left:solid 1px rgb(0, 0, 0);
     }
     .cell{
         position:relative;
         width:100%;
         height:25px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
         line-height: 25px;
         font-size: 16px;
-        text-shadow: 0px 1px 2px black;
+       /* text-shadow: 0px 1px 2px black;*/
     }
     .cell:nth-child(1){
-        border-bottom:solid 1px white;
+        border-bottom:solid 1px rgb(0, 0, 0);
     }
     .column:first-child{
         border-left:none;

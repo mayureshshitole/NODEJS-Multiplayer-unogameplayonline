@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "repository": "https://github.com/houseofbits/nodejs-uno-game",
   "scripts": {
     "build": "vue-cli-service build --mode=development",
     "serve": "vue-cli-service serve"
@@ -22,6 +21,7 @@
   "devDependencies": {
     "@vue/cli": "^4.3.1",
     "@vue/cli-service": "^4.3.1",
+    "nodemon": "^2.0.6",
     "vue-template-compiler": "^2.6.11"
   },
   "vue": {

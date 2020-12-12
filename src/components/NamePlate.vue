@@ -43,10 +43,10 @@
         word-spacing: 0.2px;
         font-weight: 700;
         filter: drop-shadow(0px 5px 3px black);
-        background: linear-gradient(to bottom, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 61%, rgba(248,181,0,1) 62%, rgba(251,223,147,1) 100%);
+        background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 61%, rgb(0, 0, 0) 62%, rgb(0, 0, 0) 100%);
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        opacity: 0.6;
+        opacity: 1.0;
     }
     .client-name.active{
         opacity: 1;

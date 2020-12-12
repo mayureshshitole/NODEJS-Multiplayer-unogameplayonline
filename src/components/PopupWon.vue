@@ -1,10 +1,10 @@
 <template>
     <Popup>
         <template v-slot:topRow>
-            <div class="won-message">{{winner}} won!</div>  
+            <div class="won-message">{{winner}} WON!</div>  
         </template>
         <template v-slot:bottomRow v-if="showButton">
-            <Button faIcon="paper-plane" :clickHandler="buttonHandler">Next round</Button>
+            <Button faIcon="paper-plane" :clickHandler="buttonHandler">PLAY AGAIN</Button>
         </template>
     </Popup>
 </template>
